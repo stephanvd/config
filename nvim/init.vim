@@ -5,7 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'bling/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'altercation/vim-colors-solarized'
-  Plug 'kassio/neoterm'
+  Plug 'stephanvd/neoterm', { 'branch': 'relative_path' }
 " }
 
 call plug#end()
